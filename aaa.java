@@ -94,32 +94,4 @@ public class aaa{
     }
 }
 
-/*public void actionPerformed(ActionEvent ae) {
-         String si = ae.getActionCommand();
-      if (si.equals("EXIT")) {
-             System.exit(0);
-         }
-         try {
-             String sd = fi.getText();
-             int a = Integer.parseInt(sd);
-             int years, months, weeks;
-             years = a / 365;
-             months = a / 30;
-             weeks = a / 7;
-             if (si.equals("CONVERT")) {
-                 fy.setText(String.valueOf(years));
-                 fm.setText(String.valueOf(months));
-                 fw.setText(String.valueOf(weeks));
-             } else if (si.equals("CLEAR")) {
-                 fy.setText(" ");
-                 fm.setText(" ");
-                 fw.setText(" ");
-             }
-
-
-         }
-         catch(Exception e){
-             System.out.println("your inpute error...!"+e);
-         }
-
-         */
+ 
